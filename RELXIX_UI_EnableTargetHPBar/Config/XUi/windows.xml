@@ -1,0 +1,7 @@
+<configs>
+	<!-- This will log as a WRN for not able to remove -->
+	<!-- This is done on purpose to have a log entry showing this file was read -->
+	<!--<remove xpath="/NOT_AN_ERROR__________Successfully_Loaded______[@modname='RELXIX_UI_EnableTargetHPBar'][@version='1.1.0'][@filename='\Config\XUi\windows.xml']" />-->
+
+	<set xpath="/windows/window[@name='windowTargetBar']/@visibility">always</set>
+</configs>

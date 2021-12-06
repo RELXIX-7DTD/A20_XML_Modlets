@@ -1,0 +1,69 @@
+<configs>
+	<!-- This will log as a WRN for not able to remove -->
+	<!-- This is done on purpose to have a log entry showing this file was read -->
+	<!--<remove xpath="/NOT_AN_ERROR__________Successfully_Loaded______[@modname='RELXIX_UI_ZombieKillsDeathsPlayerKills'][@version='1.1.0'][@filename='\Config\XUi\windows.xml']" />-->
+
+	<!-- New Window -->
+	<append xpath="/windows" >
+		<!-- R.E. LXIX --> <!-- Window that displays Zombie Kills, Deaths, and Player Kills  with dynamic color change icon (black to white) -->
+		<window name="window_RELXIXUI_ZKDPKIcoChng" width="400" height="200" anchor="CenterBottom" pos="-420,87" controller="ToolbeltWindow" visible="{toolbeltvisible}">
+				<rect controller="CharacterFrameWindow" >
+					<rect depth="2" name="searchControls" width="24" height="24" pos="24,4">
+						<button depth="4" name="characterButton" style="press" width="14" height="14" pos="0,0" color="222,206,163,128" sprite="ui_game_symbol_zombie" pivot="center" tooltip="Off" sound="[paging_click]" visible="{showcore}"/>
+						<button depth="4" name="statButton" style="icon22px, press" width="14" height="14" pos="0,0" color="222,206,163,128" sprite="ui_game_symbol_zombie" pivot="center" tooltip="Zombie Kills / Player Deaths" sound="[paging_click]" visible="{showcharacter}" />
+						<button depth="4" name="coreStatButton" style="icon22px, press" width="14" height="14" pos="0,0" color="222,206,163,128" sprite="ui_game_symbol_zombie" pivot="center" tooltip="Zombie Kills / Deaths / Player Kills" sound="[paging_click]" visible="{showstats}"/>
+					</rect>
+					
+					<rect name="rect_Default" visible="{showcharacter}"> <!-- OFF -->
+						<!--
+						     Ideally this would be just Zombie kills but since CharacterFramwWindow Controller
+						     requires the button click to change tabs to activate real-time stats updating
+						     we have this as 'Off' for now.
+						-->
+						<!--
+						<sprite name="sprite_ZKIcoChngZKillBkgrnd" depth="0" pos="-37,-54" width="65" height="24" sprite="ui_game_header_fill" type="sliced" fillcenter="false" color="0,0,0,100" />
+						<sprite name="sprite_ZKIcoChngIcoZombie" depth="2" pos="4,-28" style="icon22px" color="{playerzombiekills},{playerzombiekills},{playerzombiekills}" sprite="ui_game_symbol_zombie"/>
+						<label name="label_ZKIcoChngZKillCount" depth="2" pos="-201, -29" width="200" font_size="20" text=" [DECEA3]{playerzombiekills}[-]" justify="right" effect="outline" />
+						-->
+					</rect>
+					
+					<rect name="rect_CharacterFrameStats"  visible="{showstats}"> <!-- Zombie Kills / Player Deaths -->
+						<sprite name="sprite_ZKIcoChngZKillBkgrnd" depth="0" pos="-37,-27" width="65" height="24" sprite="ui_game_header_fill" type="sliced" fillcenter="false" color="0,0,0,100" />
+						<sprite name="sprite_ZKIcoChngIcoZombie" depth="2" pos="4,-28" style="icon22px" color="{playerzombiekills},{playerzombiekills},{playerzombiekills}" sprite="ui_game_symbol_zombie"/>
+						<label name="label_ZKIcoChngZKillCount" depth="2" pos="-201, -29" width="200" font_size="20" text=" [DECEA3]{playerzombiekills}[-]" justify="right" effect="outline" />
+				
+						<sprite name="sprite_DIcoChngDeathBkgrnd" pos="-37,-54" width="65" height="24" sprite="ui_game_header_fill" depth="0" type="sliced" fillcenter="false" color="0,0,0,100" />
+						<sprite name="sprite_DIcoChngIcoDeath" depth="2" pos="4,-55" style="icon22px" color="{playerdeaths|always},{playerdeaths},{playerdeaths}" sprite="ui_game_symbol_death"/>
+						<label name="label_DIcoChngDeathCount" depth="2" pos="-201,-56" width="200" font_size="20" text=" [DECEA3]{playerdeaths}[-]" justify="right" effect="outline" />
+					</rect>
+					
+					<rect name="rect_Percent" visible="{showcore}"> <!-- Zombie Kills / Deaths / Player Kills -->
+						<sprite name="sprite_ZKIcoChngZKillBkgrnd" depth="0" pos="-37,0" width="65" height="24" sprite="ui_game_header_fill" type="sliced" fillcenter="false" color="0,0,0,100" />
+						<sprite name="sprite_ZKIcoChngIcoZombie" depth="2" pos="4,-1" style="icon22px" color="{playerzombiekills},{playerzombiekills},{playerzombiekills}" sprite="ui_game_symbol_zombie"/>
+						<label name="label_ZKIcoChngZKillCount" depth="2" pos="-201, -2" width="200" font_size="20" text=" [DECEA3]{playerzombiekills}[-]" justify="right" effect="outline" />
+				
+						<sprite name="sprite_DIcoChngDeathBkgrnd" pos="-37,-27" width="65" height="24" sprite="ui_game_header_fill" depth="0" type="sliced" fillcenter="false" color="0,0,0,100" />
+						<sprite name="sprite_DIcoChngIcoDeath" depth="2" pos="4,-28" style="icon22px" color="{playerdeaths},{playerdeaths},{playerdeaths}" sprite="ui_game_symbol_death"/>
+						<label name="label_DIcoChngDeathCount" depth="2" pos="-201,-29" width="200" font_size="20" text=" [DECEA3]{playerdeaths}[-]" justify="right" effect="outline" />
+				
+						<sprite name="sprite_PKIcoChngPKillBkgrnd" depth="0" pos="-37,-54" width="65" height="24" sprite="ui_game_header_fill" type="sliced" fillcenter="false" color="0,0,0,100" />
+						<sprite name="sprite_PKIcoChngIcoKnife" depth="2" pos="4,-55" style="icon22px" color="{playerpvpkills},{playerpvpkills},{playerpvpkills}" sprite="ui_game_symbol_knife"/>
+						<label name="label_PKIcoChngPKillCount" depth="2" pos="-201,-56" width="200" font_size="20" text=" [DECEA3]{playerpvpkills}[-]" justify="right" effect="outline" />
+					</rect>
+					
+					<!-- we're not using this, moving way out into the twilight zone -->
+					<panel name="header" height="10" depth="1" pos="9999,9999" backgroundspritename="ui_game_panel_header">
+						<label depth="2" name="characterName" pos="42,-6" width="150" height="32" text="" font_size="32"/>
+						<label depth="2" name="levelNumber" pos="240,-10" width="80" height="28" text="" color="[lightGrey]"/>
+					</panel>
+					<rect visible="{showcharacter}" pos="9999,9999" >
+						<panel name="previewFrame" depth="0" pos="0,0" width="10" on_press="true" on_hover="true" disableautobackground="true" snap="false">
+							<rect>
+								<texture depth="2" name="playerPreview" material="Materials/Transparent Colored" size="8,8" globalopacity="false"/>
+							</rect>
+						</panel>
+					</rect>
+				</rect>
+		</window>
+	</append>
+</configs>

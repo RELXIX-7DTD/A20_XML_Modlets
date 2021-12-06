@@ -1,0 +1,8 @@
+<configs>
+	<!-- This will log as a WRN for not able to remove -->
+	<!-- This is done on purpose to have a log entry showing this file was read -->
+	<!--<remove xpath="/NOT_AN_ERROR__________Successfully_Loaded______[@modname='RELXIX_UIMENU_MoreDayLightLengthOptions'][@version='1.1.0'][@filename='\Config\XUi_Menu\windows.xml']" />-->
+
+	<set xpath="/windows/window[@name='newContinueGame']/rect[@name='tabs']/rect[@name='tabsContents']/rect[@tab_key='xuiGameSettingsGeneral']/grid/gameoption[@name='DayLightLength']/@values">2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ,22</set>
+	<set xpath="/windows/window[@name='serverBrowser']/panel[@name='serverfilters']/panel[@controller='TabSelector']/rect[@name='tabsContents']/rect[@tab_key='xuiGameSettingsBasic']/grid/browsergameoptioncombined[@name='DayLightLength']/@values">2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ,22</set>
+</configs>

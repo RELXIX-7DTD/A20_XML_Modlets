@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_Blocks_A19Farming" />
+		<Description value="Returns Plants to their A19 format.  Removes the 50% seed chance drop from player planted plants, drops only 1 item per player planted plant, downgrades on harvest of player planted plant." />
+		<Author value="Red Eagle LXIX" />
+		<Version value="1.1.0" />
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_UIMENU_MoreLandClaimSizeOptions" />
+		<Description value="This adds the options '91, 101, 125, 151, 175, 201' as Land Claim Size options in addition to the default '21, 31, 41, 51, 71' options.  These options are also added as available filter choices in the server browser." />
+		<Author value="Red Eagle LXIX" />
+		<Version value="1.1.0" />
+		<!--
+		    v1.1.0 - Commented out Purposeful WRN to avoid confusion, updated for UI changes.
+		    v1.0.3 - 2018-12-11 - Added a purposeful WRN event to log when files load
+		-->
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

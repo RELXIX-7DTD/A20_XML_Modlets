@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX - Loot - More Pots" />
+		<Description value="Adds more pots to the world by adding them as a specific item to cupboards.  It is unrealistic with multi-burner stoves to think everyone cleared out most/all their pots and pans as the world ended." />
+		<Author value="Red Eagle LXIX" />
+		<Version value="1.1.0" />
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

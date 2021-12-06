@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_UIMENU_MoreLootAbundanceOptions" />
+		<Description value="This adds the options '5, 10, 250, 300, 400, 500' as Loot Abundance options in addition to the default '25, 33, 50, 67, 75, 100, 150, 200' options.  These options are also added as available filter choices in the server browser." />
+		<Author value="Red Eagle LXIX" />
+		<Version value="1.1.0" />
+		<!--
+		    v1.1.0 - Commented out Purposeful WRN to avoid confusion, updated for UI changes.
+		    v1.0.3 - 2018-12-11 - Added a purposeful WRN event to log when files load
+		-->
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

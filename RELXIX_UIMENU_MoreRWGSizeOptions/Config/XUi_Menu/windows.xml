@@ -1,0 +1,11 @@
+<configs>
+	<!-- This will log as a WRN for not able to remove -->
+	<!-- This is done on purpose to have a log entry showing this file was read -->
+	<!-- If asked remove the comment markers from around the next line to enable the below debug line for Modlet loading issues -->
+	<!--<remove xpath="/NOT_AN_ERROR__________Successfully_Loaded______[@modname='RELXIX_UIMENU_MoreRWGSizeOptions'][@version='1.1.1'][@filename='\Config\XUi_Menu\windows.xml']" />-->
+
+	<set xpath="/windows/window[@name='newContinueGame']/rect/rect[@name='newContent']/rect[@controller='WorldGenerationWindowGroup']/grid/rect/combobox[@name='WorldSize']/@values">5120,6144,7168,8192,9216,10240,11264,12288,13312,14366,15360</set> <!-- defaults : 6144,8192,10240 -->
+	<!--<set xpath="/windows/window[@name='newContinueGame']/rect/rect[@name='newContent']/rect[@controller='WorldGenerationWindowGroup']/grid/rect/combobox[@name='WorldSize']/@value_wrap">true</set>--> <!-- default : false -->
+	<set xpath="/windows/window[@name='worldGeneration']/rect/rect[@name='generationControls']/rect/grid/rect/combobox[@name='WorldSize']/@values">5120,6144,7168,8192,9216,10240,11264,12288,13312,14366,15360</set> <!-- defaults : 6144,8192,10240 -->
+	<!--<set xpath="/windows/window[@name='worldGeneration']/rect/rect[@name='generationControls']/rect/grid/rect/combobox[@name='WorldSize']/@value_wrap">true</set>--> <!-- default : false -->
+</configs>

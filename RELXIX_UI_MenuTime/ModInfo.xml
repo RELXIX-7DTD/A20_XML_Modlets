@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_UI_MenuTime" />
+		<Description value="This adds the display of Day, Time on the menu screens (inventory, vehicle, quests, etc)" />
+		<Author value="Red Eagle LXIX" />
+		<Version value="1.1.0" />
+		<!--
+		    v1.1.0 - Commented out Purposeful WRN to avoid confusion, updated for UI changes.
+		    v1.0.3 - 2018-12-11 - Added a purposeful WRN event to log when files load
+		    v1.0.1 - 2018-11-21 - Correct case of XUi folder for Linux (and probably MAC) compatibility
+		-->
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_UI_CompassCenterHighlight" />
+		<Description value="Adds a highlight to the middle of the Compass" />
+		<Author value="Red Eagle LXIX" />
+		<Version value="1.1.0" />
+		<!--
+		    v1.1.0 - Commented out Purposeful WRN to avoid confusion, updated for UI changes.
+		    v1.0.3 - Added a purposeful WRN event to log when files load
+		    v1.0.1 - Correct case of XUi folder for Linux (and probably MAC) compatibility
+		-->
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

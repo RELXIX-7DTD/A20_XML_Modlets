@@ -1,0 +1,12 @@
+<configs>
+	<!-- This will log as a WRN for not able to remove -->
+	<!-- This is done on purpose to have a log entry showing this file was read -->
+	<!--<remove xpath="/NOT_AN_ERROR__________Successfully_Loaded______[@modname='RELXIX_Blocks_TreeDrops'][@version='1.1.0'][@filename='\Config\blocks.xml']" />-->
+
+	<append xpath="/blocks/block[@name='treeMaster']" >
+		<drop event="Destroy" name="resourceFeather" prob=".01875" count="1,15"/>
+		<drop event="Destroy" name="foodHoney" prob=".0025" count="1"/>
+		<drop event="Destroy" name="foodEgg" prob=".002625" count="1"/>
+	</append>
+
+</configs>

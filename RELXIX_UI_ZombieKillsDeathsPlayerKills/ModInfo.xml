@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_UI_ZombieKillsDeathsPlayerKills" />
+		<Description value="Adds Zombie Kills and Deaths counters to the HUD with icons that change from Black to White as counts rise.  Due to removal of PlayerStatsWindow controller to get this working had to resort to ChracterFrameWindow controller.  This means it starts disabled and you have to click the little zombie head next to the toolbar every time you play to get it to display." />
+		<Author value="Red Eagle LXIX" />
+		<Version value="1.1.0" />
+		<!--
+		    v1.1.0 - Commented out Purposeful WRN to avoid confusion, updated for UI changes.  changed from PlayerStatsWindow controller which was removed to CharacterFrameWindow controller.
+		    v1.0.4 - 2020-12-27 - Correct position for v19.3 added belt slots.
+		    v1.0.3 - 2018-12-11 - Added a purposeful WRN event to log when files load
+		    v1.0.1 - 2018-11-21 - Correct case of XUi folder for Linux (and probably MAC) compatibility
+		-->
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

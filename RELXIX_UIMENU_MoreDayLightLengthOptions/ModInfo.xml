@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_UIMENU_MoreDayLightLengthOptions" />
+		<Description value="This adds the option '2, 4, 6, 8, 10, 20, 22' hours as Day Light Length options in addition to the default '12, 14, 16, 18' for those who want really short or really long days.  These options are also added as available filter choices in the server browser." />
+		<Author value="Red Eagle LXIX" />
+		<Version value="1.1.0" />
+		<!--
+		    v1.1.0 - Commented out Purposeful WRN to avoid confusion, updated for UI changes.
+		    v1.0.3 - 2018-12-11 - Added a purposeful WRN event to log when files load
+		    v1.0.2 - 2018-12-09 - Add Server Browser Support
+		    v1.0.1 - 2018-12-09 - Correct folder name
+		-->
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

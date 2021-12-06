@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_UI_EnableTargetHPBar" />
+		<Description value="Turns the Target HP Bar on without godmode being enabled." />
+		<Author value="Red Eagle LXIX" />
+		<Version value="1.1.0" />
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

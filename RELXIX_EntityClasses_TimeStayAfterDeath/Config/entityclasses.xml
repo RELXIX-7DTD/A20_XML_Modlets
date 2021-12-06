@@ -1,0 +1,32 @@
+<configs>
+	<!-- This will log as a WRN for not able to remove -->
+	<!-- This is done on purpose to have a log entry showing this file was read -->
+	<!--<remove xpath="/NOT_AN_ERROR__________Successfully_Loaded______[@modname='RELXIX_EntityClasses_TimeStayAfterDeath'][@version='1.1.0'][@filename='\Config\entityclasses.xml']" />-->
+
+<!-- 300 600 900 1200 1800 2400 2700 3600 5400 -->
+<!--   5  10  15   20   30   40   45   60   90 -->
+
+<!-- Animal Bodies -->
+	<set xpath="/entity_classes/entity_class[@name='animalTemplateTimid']/property[@name='TimeStayAfterDeath']/@value" >1200</set>  <!-- default 300 -->
+	<set xpath="/entity_classes/entity_class[@name='animalStag']/property[@name='TimeStayAfterDeath']/@value" >1200</set>  <!-- default 300 --> <!-- For some reason stag has its own value set -->
+	<set xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='TimeStayAfterDeath']/@value" >1200</set>  <!-- default 300 -->
+
+<!-- Player Backpack -->
+	<set xpath="/entity_classes/entity_class[@name='Backpack']/property[@name='TimeStayAfterDeath']/@value" >5400</set>  <!-- default 3600 -->
+
+<!-- Dropped loot -->  <!-- used after a container block is destroyed -->
+	<set xpath="/entity_classes/entity_class[@name='DroppedLootContainer']/property[@name='TimeStayAfterDeath']/@value" >120</set>  <!-- default 60 -->
+
+<!-- Loot bags --> <!-- Bags from kills -->
+	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='TimeStayAfterDeath']/@value" >2700</set>  <!-- default 1200 -->
+	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerStrong']/property[@name='TimeStayAfterDeath']/@value" >2700</set>  <!-- default 1200 -->
+	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerBoss']/property[@name='TimeStayAfterDeath']/@value" >2700</set>  <!-- default 1200 -->
+	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerBandit']/property[@name='TimeStayAfterDeath']/@value" >2700</set>  <!-- default 1200 -->
+
+<!-- Junk Drone -->	
+	<set xpath="/entity_classes/entity_class[@name='entityJunkDrone']/property[@name='TimeStayAfterDeath']/@value" >5400</set>  <!-- default 3600 -->
+	
+<!-- Twitch Crate -->
+	<set xpath="/entity_classes/entity_class[@name='twitch_crate_template']/property[@name='TimeStayAfterDeath']/@value" >3600</set>  <!-- default 2400 -->
+	
+</configs>

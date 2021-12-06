@@ -1,0 +1,18 @@
+<configs>
+	<!-- This will log as a WRN for not able to remove -->
+	<!-- This is done on purpose to have a log entry showing this file was read -->
+	<!--<remove xpath="/NOT_AN_ERROR__________Successfully_Loaded______[@modname='RELXIX_Blocks_PickThisUp'][@version='1.1.0'][@filename='\Config\blocks.xml']" />-->
+
+	<append xpath="/blocks/block[@name='miniblindTopSheet']" >
+		<property name="CanPickup" value="true"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='commercialBlindsTop']" >
+		<property name="CanPickup" value="true"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='curtain_top1Sheet3']" >
+		<property name="CanPickup" value="true"/>
+	</append>
+
+</configs>

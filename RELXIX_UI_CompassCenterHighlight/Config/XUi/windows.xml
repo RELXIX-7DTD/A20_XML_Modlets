@@ -1,0 +1,25 @@
+<configs>
+	<!-- This will log as a WRN for not able to remove -->
+	<!-- This is done on purpose to have a log entry showing this file was read -->
+	<!--<remove xpath="/NOT_AN_ERROR__________Successfully_Loaded______[@modname='RELXIX_UI_CompassCenterHighlight'][@version='1.1.0'][@filename='\Config\XUi\windows.xml']" />-->
+
+	<!-- Changes below are based on this stock file value -->
+<!-- Alpha 20
+	<window name="windowCompass" anchor="CenterTop" pos="-240,-9" width="480" height="43" controller="CompassWindow">
+		<sprite depth="0" sprite="ui_game_header_fill" pos="47,0" width="386" height="43" type="sliced" color="150,150,150,150" />
+		<sprite depth="1" sprite="ui_game_header_fill" pos="50,-3" width="380" height="37" type="sliced" color="50,50,50,220" />
+
+		<texture depth="8" texture="Textures/UI/Compass/overlay-{gamelanguage}" pos="50, -12" width="380" height="27" color="[iconColor]" name="compassTexture3" rect_size="0.25,1" rect_offset="{#compass_rotation / 360 + 0.0625 - 0.125},0" />
+
+		<sprite pos="240,-60" sprite="" color="255,255,255,255" globalopacitymod="1.8">
+			<label depth="2" width="300" height="30" text="{daytitle}: [{daycolor}]{day}[-] {timetitle}: {time}" font_size="28" pivot="center" effect="outline" upper_case="true" justify="center"/>
+		</sprite>
+	</window>
+-->
+	
+	<!-- Add to existing window -->
+	<insertAfter xpath="/windows/window[@name='windowCompass']/texture[@name='compassTexture3']" >
+		<!-- A19 and earlier - <sprite name="sprite_compassCenterHighlight" sprite="ui_game_header_fill" depth="10" width="2" height="43" pos="239,0" type="sliced" fillcenter="false" color="255,255,0,35" /> --> <!-- This adds the center bar to the compass -->
+		<sprite name="sprite_compassCenterHighlight" sprite="ui_game_header_fill" depth="10" width="2" height="43" pos="239,0" type="sliced" fillcenter="false" color="255,255,0,128" /> <!-- This adds the center bar to the compass -->
+	</insertAfter>
+</configs>

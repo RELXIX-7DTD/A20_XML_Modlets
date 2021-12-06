@@ -1,0 +1,22 @@
+<configs>
+	<!-- This will log as a WRN for not able to remove -->
+	<!-- This is done on purpose to have a log entry showing this file was read -->
+	<!--<remove xpath="/NOT_AN_ERROR__________Successfully_Loaded______[@modname='RELXIX_UI_ToolbeltSlotNumbers'][@version='1.1.0'][@filename='\Config\XUi\windows.xml']" />-->
+
+	<!-- New Window -->
+	<insertBefore xpath="/windows/window[@name='HUDLeftStatBars']" >
+		<!--<window name="window_RELXIXUI_toolbeltSlotNumbers" depth="13" width="603" height="22" pos="-339,84" anchor="CenterBottom" controller="ToolbeltWindow" visible="{toolbeltvisible}">		-->
+		<window name="window_RELXIXUI_toolbeltSlotNumbers" depth="13" width="603" height="22" pos="-410,85" anchor="CenterBottom" controller="ToolbeltWindow" visible="{toolbeltvisible}">		
+			<label name="label_toolbeltSlot1" pos="22,0" width="22" height="22" text="  [DECEA3]1" font_size="20" justify="center" effect="outline" />
+			<label name="label_toolbeltSlot2" pos="97,0" width="22" height="22" text="  [DECEA3]2" font_size="20" justify="center" effect="outline" />
+			<label name="label_toolbeltSlot3" pos="172,0" width="22" height="22" text="  [DECEA3]3" font_size="20" justify="center" effect="outline" />
+			<label name="label_toolbeltSlot4" pos="247,0" width="22" height="22" text="  [DECEA3]4" font_size="20" justify="center" effect="outline" />
+			<label name="label_toolbeltSlot5" pos="322,0" width="22" height="22" text="  [DECEA3]5" font_size="20" justify="center" effect="outline" />
+			<label name="label_toolbeltSlot6" pos="397,0" width="22" height="22" text="  [DECEA3]6" font_size="20" justify="center" effect="outline" />
+			<label name="label_toolbeltSlot7" pos="472,0" width="22" height="22" text="  [DECEA3]7" font_size="20" justify="center" effect="outline" />
+			<label name="label_toolbeltSlot8" pos="547,0" width="22" height="22" text="  [DECEA3]8" font_size="20" justify="center" effect="outline" />
+			<label name="label_toolbeltSlot9" pos="622,0" width="22" height="22" text="  [DECEA3]9" font_size="20" justify="center" effect="outline" />
+			<label name="label_toolbeltSlot0" pos="697,0" width="22" height="22" text="  [DECEA3]0" font_size="20" justify="center" effect="outline" />
+		</window>
+	</insertBefore>
+</configs>

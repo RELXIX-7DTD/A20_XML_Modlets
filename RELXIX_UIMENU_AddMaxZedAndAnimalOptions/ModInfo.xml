@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_UIMENU_AddMaxZedAndAnimalOptions" />
+		<Description value="This adds options to the menu for Max Zombies and Max Animal Counts normally only configurable via serverconfig.xml." />
+		<Author value="Red Eagle LXIX" />
+		<Version value="1.1.0" />
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,15 @@
+<configs>
+	<!-- This will log as a WRN for not able to remove -->
+	<!-- This is done on purpose to have a log entry showing this file was read -->
+	<!--<remove xpath="/NOT_AN_ERROR__________Successfully_Loaded______[@modname='RELXIX_UI_MenuTime'][@version='1.1.0'][@filename='\Config\XUi\windows.xml']" />-->
+
+	<!-- New Window -->
+	<append xpath="/windows" >
+		<!-- R.E. LXIX --> <!-- Window that displays the Day/Time when compass not available during various menus -->
+		<window name="window_RELXIXUI_menuTime" width="400" height="32" pos="-500,-20" controller="MapStats" anchor="CenterTop">		
+			<sprite name="sprite_menuTimeBackground" sprite="ui_game_header_fill" depth="0" width="175" height="24" pos="-2,2" type="sliced" fillcenter="false" color="0,0,0,100" />
+			<sprite name="sprite_menuTimeDayTime" depth="2" size="20,20" pos="0,0" sprite="ui_game_symbol_clock" color="*" foregroundlayer="true"/>
+			<label name="label_menuTimeDayTime" depth="2" pos="28,0" width="172" height="22" text="{mapdaytimetitle}: [DECEA3]{mapdaytime}[-]" font_size="20" effect="outline" />
+		</window>
+	</append>
+</configs>

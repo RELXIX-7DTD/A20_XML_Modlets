@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_UIMENU_MoreRWGSizeOptions" />
+		<Description value="This adds '5120,7168,9216,11264,12288,13312,14366,15360' size options in addition to the default '6144,8192,10240' on the New Game Menu and Editing Tools RWG Preview World Generator Menu." />
+		<Author value="Red Eagle LXIX" />
+		<Version value="1.1.1" />
+		<!--
+		    v1.1.1 - Removed sizes <= 4k (1024,2048,3072,4096) and 16384 as they don't work with A20, disabled wrapping with lowered number of choices.
+		    v1.1 - 2019-05-11 - Removed purposeful WRN event to log when files load
+		    				Added additional Size options - 1024,2048,3072,5120,7168,9216,11264,13312,15360
+		    				Enabled wrapping (so if you are at 16k it you can go up left through all choice to reach 1k, or right to immediately reach 1k)
+		    v1.0 - 2018-12-23 - Added a purposeful WRN event to log when files load
+		-->
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

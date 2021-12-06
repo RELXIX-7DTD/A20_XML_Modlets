@@ -1,0 +1,91 @@
+<configs>
+	<!-- This will log as a WRN for not able to remove -->
+	<!-- This is done on purpose to have a log entry showing this file was read -->
+	<!--<remove xpath="/NOT_AN_ERROR__________Successfully_Loaded______[@modname='RELXIX_Blocks_A19Farming'][@version='1.1.0'][@filename='\Config\blocks.xml']" />-->
+
+	<remove xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']/drop[@event='Destroy']" />
+	<set xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']/drop[@event='Harvest']/@count">1</set>
+	<append xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']" >
+		<property name="DowngradeBlock" value="plantedMushroom1"/>
+	</append>
+
+	<remove xpath="/blocks/block[@name='plantedYucca3HarvestPlayer']/drop[@event='Destroy']" />
+	<set xpath="/blocks/block[@name='plantedYucca3HarvestPlayer']/drop[@event='Harvest']/@count">1</set>
+	<append xpath="/blocks/block[@name='plantedYucca3HarvestPlayer']" >
+		<property name="DowngradeBlock" value="plantedYucca1"/>
+	</append>
+
+	<remove xpath="/blocks/block[@name='plantedCotton3HarvestPlayer']/drop[@event='Destroy']" />
+	<set xpath="/blocks/block[@name='plantedCotton3HarvestPlayer']/drop[@event='Harvest']/@count">1</set>
+	<append xpath="/blocks/block[@name='plantedCotton3HarvestPlayer']" >
+		<property name="DowngradeBlock" value="plantedCotton1"/>
+	</append>
+
+	<remove xpath="/blocks/block[@name='plantedCoffee3HarvestPlayer']/drop[@event='Destroy']" />
+	<set xpath="/blocks/block[@name='plantedCoffee3HarvestPlayer']/drop[@event='Harvest']/@count">1</set>
+	<append xpath="/blocks/block[@name='plantedCoffee3HarvestPlayer']" >
+		<property name="DowngradeBlock" value="plantedCoffee1"/>
+	</append>
+
+	<remove xpath="/blocks/block[@name='plantedGoldenrod3HarvestPlayer']/drop[@event='Destroy']" />
+	<set xpath="/blocks/block[@name='plantedGoldenrod3HarvestPlayer']/drop[@event='Harvest']/@count">1</set>
+	<append xpath="/blocks/block[@name='plantedGoldenrod3HarvestPlayer']" >
+		<property name="DowngradeBlock" value="plantedGoldenrod1"/>
+	</append>
+
+	<remove xpath="/blocks/block[@name='plantedAloe3HarvestPlayer']/drop[@event='Destroy']" />
+	<set xpath="/blocks/block[@name='plantedAloe3HarvestPlayer']/drop[@event='Harvest']/@count">1</set>
+	<append xpath="/blocks/block[@name='plantedAloe3HarvestPlayer']" >
+		<property name="DowngradeBlock" value="plantedAloe1"/>
+	</append>
+
+	<remove xpath="/blocks/block[@name='plantedBlueberry3HarvestPlayer']/drop[@event='Destroy']" />
+	<set xpath="/blocks/block[@name='plantedBlueberry3HarvestPlayer']/drop[@event='Harvest']/@count">1</set>
+	<append xpath="/blocks/block[@name='plantedBlueberry3HarvestPlayer']" >
+		<property name="DowngradeBlock" value="plantedBlueberry1"/>
+	</append>
+
+	<remove xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']/drop[@event='Destroy']" />
+	<set xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']/drop[@event='Harvest']/@count">1</set>
+	<append xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']" >
+		<property name="DowngradeBlock" value="plantedPotato1"/>
+	</append>
+
+	<remove xpath="/blocks/block[@name='plantedChrysanthemum3HarvestPlayer']/drop[@event='Destroy']" />
+	<set xpath="/blocks/block[@name='plantedChrysanthemum3HarvestPlayer']/drop[@event='Harvest']/@count">1</set>
+	<append xpath="/blocks/block[@name='plantedChrysanthemum3HarvestPlayer']" >
+		<property name="DowngradeBlock" value="plantedChrysanthemum1"/>
+	</append>
+
+	<remove xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']/drop[@event='Destroy']" />
+	<set xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']/drop[@event='Harvest']/@count">1</set>
+	<append xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']" >
+		<property name="DowngradeBlock" value="plantedCorn1"/>
+	</append>
+
+	<remove xpath="/blocks/block[@name='plantedGraceCorn3HarvestPlayer']/drop[@event='Destroy']" />
+	<set xpath="/blocks/block[@name='plantedGraceCorn3HarvestPlayer']/drop[@event='Harvest']/@count">1</set>
+	<append xpath="/blocks/block[@name='plantedGraceCorn3HarvestPlayer']" >
+		<property name="DowngradeBlock" value="plantedGraceCorn1"/>
+	</append>
+
+	<remove xpath="/blocks/block[@name='plantedHop3HarvestPlayer']/drop[@event='Destroy']" />
+	<set xpath="/blocks/block[@name='plantedHop3HarvestPlayer']/drop[@event='Harvest']/@count">1</set>
+	<append xpath="/blocks/block[@name='plantedHop3HarvestPlayer']" >
+		<property name="DowngradeBlock" value="plantedHop1"/>
+	</append>
+
+	<!--<remove xpath="/blocks/block[@name='plantedSnowberry3HarvestPlayer']/drop[@event='Destroy']" />
+	<set xpath="/blocks/block[@name='plantedSnowberry3HarvestPlayer']/drop[@event='Harvest']/@count">1</set>-->
+	<!--<append xpath="/blocks/block[@name='plantedSnowberry3HarvestPlayer']" >
+  	<drop event="Harvest" name="plantedSnowberry1" count="1" tag="cropHarvest"/>
+		<property name="DowngradeBlock" value="plantedSnowberry1"/>
+	</append>-->
+
+	<remove xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']/drop[@event='Destroy']" />
+	<set xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']/drop[@event='Harvest']/@count">1</set>
+	<append xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']" >
+		<property name="DowngradeBlock" value="plantedPumpkin1"/>
+	</append>
+
+</configs>

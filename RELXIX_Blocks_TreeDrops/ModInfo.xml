@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_Blocks_Tree Drops" />
+		<Description value="In addition to any default or perk drops this mod adds a small chance for the following items to drop from Trees when chopped down: Eggs, Feathers, Honey.  The number of drops over 1000 trees is insignificant.  I did this more for atmosphere." />
+		<Author value="Red Eagle LXIX" />
+		<Version value="1.1.0" />
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

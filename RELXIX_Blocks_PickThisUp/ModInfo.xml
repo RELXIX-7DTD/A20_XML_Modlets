@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_Blocks_PickThisUp" />
+		<Description value="Enable CanPIckUp on several items throughout the game world. (curtains, miniblinds)" />
+		<Author value="Red Eagle LXIX" />
+		<Version value="1.1.0" />
+		<!--
+				v1.1.0 - Commented out Purposeful WRN to avoid confusion.
+				v1.0.3 - 2018-12-11 - Added a purposeful WRN event to log when files load
+		-->
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

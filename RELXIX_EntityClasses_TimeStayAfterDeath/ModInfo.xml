@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_EntityClasses_TimeStayAfterDeath" />
+		<Description value="Adjusts the TimeStayAfterDeath for entities (extending DroppedLoot container times, etc)." />
+		<Author value="Red Eagle LXIX" />
+		<Version value="1.1.0" />
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>
