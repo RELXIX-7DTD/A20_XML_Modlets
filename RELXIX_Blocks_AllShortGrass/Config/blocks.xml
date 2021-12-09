@@ -1,0 +1,6 @@
+<configs>
+	<set xpath="/blocks/block[@name='treeGrassMaster']/property[@name='Shape']/@value">GrassShort</set>
+	<append xpath="/blocks/block[@name='plantedSnowberry3Harvest']" >
+			<property name="Shape" value="Grass"/>
+	</append>
+</configs>

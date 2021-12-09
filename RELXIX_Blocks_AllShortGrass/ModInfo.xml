@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_Blocks_AllShortGrass" />
+		<Description value="Makes all the grasses in the game short.  Leaves the Snowberry normal shape since it blocks building." />
+		<Author value="" />
+		<Version value="1.1.0" />
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>
