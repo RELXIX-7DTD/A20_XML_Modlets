@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="RELXIX_Shapes_RestoreShapesHP" />
-		<Description value="This sets all shapes back to the way they used to be with full HP.  This is because their cost and upgrade costs did not change, only their value/Hit Points which is unfair, IMHO.  Who wants to pay for a full steel block and only get something weaker than concrete?  Not me.  Additionally the changes were not done well.  As one of many examples: halfPillar1m and  halfPillar1mHalf were left full HP but because halfPillar1mPlate has the word plate it was dropped to 25%  (the block that had more physical representation in the word has lower HP just because of the name." />
+		<Description value="This sets all shapes back to the way they used to be with full HP.  This is because their cost and upgrade costs did not change, only their value/Hit Points which is unfair, IMHO.  Who wants to pay for a full steel block and only get something weaker than concrete?  Not me.  Additionally the changes were not done well.  As one of many examples: halfPillar1m and  halfPillar1mHalf were left full HP but because halfPillar1mPlate has the word plate it was dropped to 25%  (the block that had more physical representation in the word has lower HP just because of the name)." />
 		<Author value="Red Eagle LXIX" />
 		<Version value="1.1.0" />
 		<Website value="http://7daystodie.com" />
