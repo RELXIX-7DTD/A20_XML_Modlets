@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="RELXIX_Shapes_RestoreShapesHP" />
-		<Description value="This sets all shapes back to the way they used to be with full HP.  This is because their cost and upgrade costs did not change, only their value/Hit Points which is unfair, IMHO.  Who wants to pay for a full steel block and only get something weaker than concrete?  Not me." />
+		<Description value="This sets all shapes back to the way they used to be with full HP based on b218.  This is because their cost and upgrade costs did not change, only their value/Hit Points which is unfair, IMHO.  Who wants to pay for a full steel block and only get something weaker than concrete?  Not me." />
 		<Author value="Red Eagle LXIX" />
 		<Version value="1.1.0" />
 		<Website value="http://7daystodie.com" />
