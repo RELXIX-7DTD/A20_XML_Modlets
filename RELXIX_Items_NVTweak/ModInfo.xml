@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_Items_NVTweak" />
+		<Description value="With an already restricted FOV the added restriction on the NV Goggles just felt too much.  By combining these 2 filter sets I was able to get a faded feel for nightvision without the goggle blockage but retain a bit of color.  I know there are several mods that use the Bright effect as an alternative to the NightVision effect but I felt that made it too much like daytime so added the VibrantDeSat to dull the colors some." />
+		<Author value="Red Eagle LXIX" />
+		<Version value="1.1.0" />
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>
