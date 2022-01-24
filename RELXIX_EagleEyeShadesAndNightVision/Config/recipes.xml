@@ -1,0 +1,18 @@
+<config>
+	<!-- This will log as a WRN for not able to remove -->
+	<!-- This is done on purpose to have a log entry showing this file was read -->
+	<!--<remove xpath="/NOT_AN_ERROR__________Successfully_Loaded______[@modname='RELXIX_EagleEyeShadesAndNightVision'][@version='1.1.0'][@filename='\Config\recipes.xml']" />-->
+	<append xpath="/recipes">
+		<recipe name="apparelShadesEagleEye" count="1" craft_time="90" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="apparelShades" count="1"/>
+			<ingredient name="apparelToughGuySunglasses" count="1"/>
+			<ingredient name="apparelAviatorGoggles" count="1"/>
+			<ingredient name="apparelSkiGoggles" count="1"/>
+			<ingredient name="apparelNerdGlasses" count="1"/>
+		</recipe>
+		<recipe name="apparelNightvisionGogglesEagleEye" count="1" craft_time="90" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="apparelNightvisionGoggles" count="1"/>
+			<ingredient name="apparelShadesEagleEye" count="1"/>
+		</recipe>
+	</append>
+</config>

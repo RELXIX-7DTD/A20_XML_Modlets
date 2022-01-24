@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_EagleEyeShadesAndNightVision" />
+		<Description value="Adds a new set of shades combining the function of Shades (perception), Tough Guy Glasses (fortitude), Lucky Googles (loot level + treasure radius), Ski Googles (agility), and Nerd Glasses (Int, Crafting time, XP) Requires 1 of each to craft.  Also adds a new NightVision goggle set that can be has all of those functions.  Requires Nightvision Googles and Eagle Eye Shades to craft. - Recipes require advanced engineering level 4-5 respectively, crafted at workbench." />
+		<Author value="Red Eagle LXIX" />
+		<Version value="1.1.0" />
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

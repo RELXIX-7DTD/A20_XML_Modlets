@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+apparelShadesEagleEye,items,Clothes,,,"Eagle Eye Shades"
+apparelShadesEagleEyeDesc,items,Clothes,,,"Eagle Eye Shades provide you with the eyes of an eagle and the powers of Shades (perception), Tough Guy Glasses (fortitude), Lucky Goggles (loot level + treasure radius), Ski Googles (agility), and Nerd Glasses (Int, Crafting time, XP)."
+apparelNightvisionGogglesEagleEye,items,Clothes,,,"Eagle Eye Night Vision Goggles"
+apparelNightvisionGogglesEagleEyeDesc,items,Clothes,,,"Eagle Eye Night Vision Goggles provide you with the eyes of an eagle with Night Vision enhanced with powers of Shades (perception), Tough Guy Glasses (fortitude), Lucky Goggles (loot level + treasure radius), Ski Googles (agility), and Nerd Glasses (Int, Crafting time, XP)."
