@@ -6,7 +6,7 @@
 <append xpath="/items">
 <item name="apparelShadesEagleEye"> <!-- item name directly referenced in the code -->
 	<property name="Tags" value="head,clothing,canHaveCosmetic,noMods"/>
-	<property name="DisplayType" value="clothingShades"/>
+	<property name="DisplayType" value="apparelShadesEagleEye"/>
 	<property name="CustomIcon" value="apparelShades"/>
 	<property name="CustomIconTint" value="88,0,0"/>
 	<property name="Stacknumber" value="1"/>
@@ -56,7 +56,7 @@
 
 <item name="apparelNightvisionGogglesEagleEye">
 	<property name="Tags" value="head,clothing,canHaveCosmetic,noMods"/>
-	<!-- <property name="DisplayType" value="clothing"/> -->
+	<property name="DisplayType" value="apparelNightvisionGogglesEagleEye"/>
 	<property name="CustomIcon" value="apparelNightvisionGoggles"/>
 	<property name="CustomIconTint" value="88,0,0"/>
 	<property name="Stacknumber" value="1"/>
