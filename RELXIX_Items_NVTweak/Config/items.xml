@@ -6,10 +6,10 @@
 	<remove xpath="/items/item[@name='apparelNightvisionGoggles']/effect_group/triggered_effect[@effect_name='NightVision']"/>
 
   <insertAfter xpath="/items/item[@name='apparelNightvisionGoggles']/effect_group/requirement">
-		<triggered_effect trigger="onSelfItemActivate" action="ModifyScreenEffect" effect_name="Bright" intensity=".05" fade="0"/>
+		<triggered_effect trigger="onSelfItemActivate" action="ModifyScreenEffect" effect_name="Bright" intensity=".15" fade="0"/>
 		<triggered_effect trigger="onSelfItemDeactivate" action="ModifyScreenEffect" effect_name="Bright" intensity="0" fade="0"/>
 		<triggered_effect trigger="onSelfEquipStop" action="ModifyScreenEffect" effect_name="Bright" intensity="0" fade="0"/>
-		<triggered_effect trigger="onSelfItemActivate" action="ModifyScreenEffect" effect_name="VibrantDeSat" intensity=".5" fade="0"/>
+		<triggered_effect trigger="onSelfItemActivate" action="ModifyScreenEffect" effect_name="VibrantDeSat" intensity=".33" fade="0"/>
 		<triggered_effect trigger="onSelfItemDeactivate" action="ModifyScreenEffect" effect_name="VibrantDeSat" intensity="0" fade="0"/>
 		<triggered_effect trigger="onSelfEquipStop" action="ModifyScreenEffect" effect_name="VibrantDeSat" intensity="0" fade="0"/>
   </insertAfter>
