@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_HighlightReadBooks" />
+		<Description value="This is my own take on highlighting books you have and have not read.  Unread are greenish, read are redish.  I included opposite color icons as well for those that would rather the stuff they can sell/trade/give be green and the ones they need be red." />
+		<Author value="" />
+		<Version value="1.1.0" />
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>
