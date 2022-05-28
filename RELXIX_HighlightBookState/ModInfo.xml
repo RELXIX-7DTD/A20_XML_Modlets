@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RELXIX_HighlightBookState" />
+		<Description value="I originally tried coloring the icons but that didn't work.  I resorted to the technique I found in this thread of replacing the icons: https://community.7daystodie.com/topic/24306-mod-that-lets-you-know-youve-already-read-a-book/" />
+		<Author value="" />
+		<Version value="1.1.0" />
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

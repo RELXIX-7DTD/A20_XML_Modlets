@@ -1,0 +1,19 @@
+<configs>
+<!-- This one does not work -->
+<!--
+    <insertAfter xpath="/items/item[@name='schematicMaster']/property[@name='ItemTypeIcon']">
+        <property name="ItemTypeIconColor" value="128,256,128,224" />
+    </insertAfter>
+-->    
+<!-- This one does works -->
+<!--
+    <insertAfter xpath="/items/item[@name='schematicMaster']/property[@name='AltItemTypeIcon']">
+        <property name="AltItemTypeIconColor" value="256,128,128,224" /> 
+    </insertAfter>
+-->
+
+<!-- just using icons that are pre-colored instead -->
+    <set xpath="/items/item[@name='schematicMaster']/property[@name='ItemTypeIcon']/@value">book_green</set>
+    <set xpath="/items/item[@name='schematicMaster']/property[@name='AltItemTypeIcon']/@value">book_read_red</set>
+
+</configs>
