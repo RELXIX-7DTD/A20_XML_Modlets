@@ -4,8 +4,9 @@
 		<Name value="RELXIX_UIMENU_AddLandClaimCountOption" />
 		<Description value="This adds an option to the menu for Land Claim Count with options '1, 2, 3, 4, 5, 10, 20, 25, 50, 100, 150, 200' as Land Claim Block Count choices on the Multiplayer Tab with the rest of the Land Claim options.  These options are also added as available filter choices in the server browser." />
 		<Author value="Red Eagle LXIX" />
-		<Version value="1.1.0" />
+		<Version value="1.1.1" />
 		<!--
+		    v1.1.1 - Fixed Land Claim Count display on Server Browser after search has completed and selecting server.
 		    v1.1.0 - Commented out Purposeful WRN to avoid confusion, updated for UI changes, slight rename (old was LandClaimCountSettings).
 		    v1.0.3 - 2018-12-11 - Added a purposeful WRN event to log when files load
 		-->

@@ -11,7 +11,7 @@
 	<insertBefore xpath="/windows/window[@name='serverBrowser']/panel[@name='serverfilters']/panel[@controller='TabSelector']/rect[@name='tabsContents']/rect[@tab_key='xuiGameSettingsMultiplayer']/grid/browsergameoptioncombined[@name='LandClaimSize']">
 		<browsergameoptioncombined name="LandClaimCount" title="LandClaimCount" value_wrap="false" values="1, 2, 3, 4, 5, 10, 20, 25, 50, 100, 150, 200" display_names="" value_localization_prefix="goLandClaimSizeValue" />
 	</insertBefore>
-	<insertBefore xpath="/windows/window[@name='serverBrowser']/rect[@name='serverinfo']/panel[@controller='TabSelector']/rect[@name='tabsContents']/rect[@tab_key='xuiGameSettingsMultiplayer']/grid/browsergameoptioninfo[@name='LandClaimSize']">
+	<insertBefore xpath="/windows/window[@name='serverBrowser']/rect[@name='browser']/rect[@name='serverinfo']/panel[@controller='TabSelector']/rect[@name='tabsContents']/rect[@tab_key='xuiGameSettingsMultiplayer']/grid/browsergameoptioninfo[@name='LandClaimSize']">
 		<browsergameoptioninfo name="LandClaimCount" title="LandClaimCount" value_wrap="false" values="1, 2, 3, 4, 5, 10, 20, 25, 50, 100, 150, 200" display_names="" value_localization_prefix="goLandClaimSizeValue" />
 	</insertBefore>
 </configs>
